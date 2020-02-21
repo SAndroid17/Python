@@ -6,4 +6,4 @@ try:
     text2 = quote(text, 'utf-8')#编码
     print("URL编码前：",text1+"\n","\nURL编码后：",text2)
 except Exception as e:
-    print('不能解码')
+    print('无法解码')
